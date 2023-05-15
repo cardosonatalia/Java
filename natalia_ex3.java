@@ -6,6 +6,7 @@
 import java.util.Scanner;
 public class ex3 {
     public static void main(String args[]){
+        //valor das variaveis
         double valBra,valDol;
         valBra=0.0;
         valDol=0.0;
