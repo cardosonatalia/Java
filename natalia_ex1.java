@@ -4,12 +4,12 @@
     - Data: 03/05/23
 */
 
-
+//inicializando codigo
 import java.util.Scanner;
 public class ex1 {
     public static void main(String args[]){
         
-
+//passando valor às variaveis
         double n1,n2,n3,n4,res;
         n1=0.0;
         n2=0.0;
@@ -32,7 +32,7 @@ public class ex1 {
          n4=input.nextDouble();
 
          res = n1+n2+n3+n4;
-      
+      //logica para sair o resultado
         System.out.printf("O resultado é:", res);
         input.close();
     }
