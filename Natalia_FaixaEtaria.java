@@ -2,7 +2,7 @@
 AUTOR: Natália Cardoso 
 DATA: 07/05/2023
 */
-
+//inicializando codigo
 import java.util.Scanner;
 
 public class FaixaEtaria {
@@ -12,7 +12,7 @@ public class FaixaEtaria {
             int idade = input.nextInt();
 
             String faixaEtaria;
-
+//declarando valor para cada faixa etaria
             if (idade <= 12) {
                 faixaEtaria = "Criança";
             } else if (idade <= 19) {
