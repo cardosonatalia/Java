@@ -33,7 +33,7 @@ public class ex1 {
 
          res = n1+n2+n3+n4;
       //logica para sair o resultado
-        System.out.printf("O resultado é:", res);
+        System.out.printf("O resultado é: %f", res); // Adicione: %(tipo de dado) quando usar printf
         input.close();
     }
 }
